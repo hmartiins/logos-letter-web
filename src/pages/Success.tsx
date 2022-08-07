@@ -1,7 +1,9 @@
+import Wrapper from "../components/Wrapper";
+
 export default function Success() {
   return (
-    <div>
+    <Wrapper>
       Success
-    </div>
+    </Wrapper>
   )
 }

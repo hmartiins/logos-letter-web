@@ -2,9 +2,9 @@ import styled from 'styled-components';
 
 const Input = styled.input`
   display: block;
-  width: 60%;
+  width: 50%;
 
-  margin: 0;
+  margin: 0.6em;
   padding: 0rem 1.6rem;
 
   color: #302f2f;
@@ -17,9 +17,11 @@ const Input = styled.input`
   border: none;
   border-radius: 0.4rem;
 
+  transition: 1s;
+
   &:focus {
     outline: none;
-    box-shadow: 0.2rem 0.2rem 1.2rem #201e22;
+    box-shadow: 0.2rem 0.2rem 0.8rem #201e22;
   }
 `;
 
